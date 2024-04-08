@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <form action="https://httpbin.org/post" method="post">
+
+        <ul>
+            <li>
+                <label for="name">name:</label>
+                <input type="text" id="name" name="name">
+            </li><br>
+
+            <li>
+                <label for="email">e-mail:</label>
+                <input type="email" id="email" name="email">
+            </li><br>
+
+            <li>
+                <label for="mensaje">message:</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea><br><br>
+                <input type="submit" value="send you message">
+            </li><br>
+        </ul>
+
+    </form>
+</div>
+</body>
